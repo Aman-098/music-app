@@ -1,0 +1,82 @@
+.border{
+    border: 2px solid white;
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.bg-black{
+    background-color: #000;
+    color: white;
+}
+
+.bg-grey{
+    background-color: #121212;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+
+.rounded{
+    border-radius: 7px;
+}
+
+.m-1{
+    margin: 5px;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+
+/* Styles for Webkit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #333;
+    border-radius: 6px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #1a1a1a;
+  }
+  
+  /* Styles for Firefox */
+  /* Note: Firefox supports a different set of properties for scrollbar styling */
+  /* These styles may not work in future versions of Firefox */
+  
+  /* For Firefox version 64 and below */
+  /* scrollbar-color: #333 #1a1a1a; */
+  
+  /* For Firefox version 65 and above */
+  /* Uncomment the following lines if you want to apply different styles for Firefox */
+  /*
+  scrollbar-color: #333 #1a1a1a;
+  scrollbar-width: thin;
+  */
+  
+  /* General styles for all browsers */
+  body {
+    scrollbar-face-color: #333;
+    scrollbar-highlight-color: #1a1a1a;
+    scrollbar-shadow-color: #1a1a1a;
+    scrollbar-3dlight-color: #1a1a1a;
+    scrollbar-arrow-color: #fff;
+    scrollbar-darkshadow-color: #1a1a1a;
+  }
+  
